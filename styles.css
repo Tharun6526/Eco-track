@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #e6f2e6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #907dfe;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+.results {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f8f2;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.results h3 {
+  color: #1b5e20;
+  text-align: center;
+}
+
+.results p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.tip {
+  font-weight: bold;
+  text-align: center;
+  color: #e65100;
+}
+
+.success {
+  color: #388e3c;
+}

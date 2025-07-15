@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Eco Track - Carbon Footprint Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Eco Track</h1>
+    <h2>🌍 Carbon Footprint Calculator</h2>
+    <form id="carbonForm">
+      <label for="km_per_week">Kilometers driven per week:</label>
+      <input type="number" step="any" id="km_per_week" required />
+
+      <label for="fuel_efficiency">Fuel efficiency (km/liter):</label>
+      <input type="number" step="any" id="fuel_efficiency" required />
+
+      <label for="kwh_per_month">Electricity use per month (kWh):</label>
+      <input type="number" step="any" id="kwh_per_month" required />
+
+      <label for="waste_kg_per_week">Waste per week (kg):</label>
+      <input type="number" step="any" id="waste_kg_per_week" required />
+
+      <button type="submit">Calculate Footprint</button>
+    </form>
+
+    <div class="results" id="results" style="display: none;">
+      <h3>📊 Your Annual Carbon Emissions</h3>
+      <p id="transportOutput"></p>
+      <p id="electricityOutput"></p>
+      <p id="wasteOutput"></p>
+      <h3 id="totalOutput"></h3>
+      <p class="tip" id="tipOutput"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
